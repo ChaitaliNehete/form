@@ -41,7 +41,6 @@ const MultipleInput = () => {
                         autoComplete='off'
                         name='fullname'
                         id='fullname'
-                        placeholder="Your Name"
                         value={state.fullname}
                         onChange={handleChange}
                     />
@@ -53,7 +52,6 @@ const MultipleInput = () => {
                         autoComplete='off'
                         name='email'
                         id='email'
-                        placeholder="Your email"
                         value={state.email}
                         onChange={handleChange}
                     />
@@ -61,11 +59,10 @@ const MultipleInput = () => {
                 <div>
                     <label htmlFor="phone">Phone:</label>
                     <input
-                        type="text"
+                        type="number"
                         autoComplete='off'
                         name='phone'
                         id='phone'
-                        placeholder="Your phone number"
                         value={state.phone}
                         onChange={handleChange}
                     />
@@ -77,7 +74,6 @@ const MultipleInput = () => {
                         autoComplete='off'
                         name='password'
                         id='password'
-                        placeholder="Your password"
                         value={state.password}
                         onChange={handleChange}
                     />
